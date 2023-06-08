@@ -31,13 +31,9 @@
       <div class="swiper mySwiper">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
-            <img src="/client_assets/images/slider/img_2.jpg" alt="" />
-            <div class="text-content">
-              <p class="big-text">Welcome To</p>
-              <p class="small-text">World Of Mekhla</p>
-            </div>
+            <img src="/client_assets/images/slider/welcome thum rezized.jpg" alt="" />
           </div>
-          <div class="swiper-slide">
+          <!-- <div class="swiper-slide">
             <img src="/client_assets/images/slider/img_3.jpg" alt="" />
             <div class="text-content">
               <p class="big-text">Welcome To</p>
@@ -57,7 +53,7 @@
               <p class="big-text">Welcome To</p>
               <p class="small-text">World Of Mekhla</p>
             </div>
-          </div>
+          </div> -->
         </div>
         <div class="swiper-pagination"></div>
         <div class="swiper-button-next"></div>
