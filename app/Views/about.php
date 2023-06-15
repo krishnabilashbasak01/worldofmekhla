@@ -10,18 +10,19 @@
     <meta name="keywords" content="<?= $pageKeyWords ?>">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
     <link rel="stylesheet" href="/client_assets/css/style.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css" />
 </head>
 
-<body>
+<body class="fix-background">
     <!-- nav bar -->
     <?php include_once 'components/header.php'; ?>
     <!-- nav bar -->
 
-    <div id="parchment">
+    <div>
 
         <div class="page-body pt-5">
             <!-- <div class="background_dark"> -->
@@ -33,23 +34,30 @@
 
                 <ul class="nav nav-pills mb-5 mt-5" id="pills-tab" role="tablist">
                     <li class="nav-item" role="presentation">
-                        <button class="nav-link nv-black active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-biography" type="button" role="tab" aria-controls="pills-biography" aria-selected="true">
+                        <button class="nav-link nv-black active" id="pills-home-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-biography" type="button" role="tab" aria-controls="pills-biography"
+                            aria-selected="true">
                             Biography
                         </button>
                     </li>
                     <li class="nav-item" role="presentation">
-                        <button class="nav-link nv-black" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-recognition" type="button" role="tab" aria-controls="pills-recognition" aria-selected="false">
+                        <button class="nav-link nv-black" id="pills-profile-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-recognition" type="button" role="tab"
+                            aria-controls="pills-recognition" aria-selected="false">
                             Recognition
                         </button>
                     </li>
                     <li class="nav-item" role="presentation">
-                        <button class="nav-link nv-black" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-hobby" type="button" role="tab" aria-controls="pills-hobby" aria-selected="false">
+                        <button class="nav-link nv-black" id="pills-contact-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-hobby" type="button" role="tab" aria-controls="pills-hobby"
+                            aria-selected="false">
                             Hobby
                         </button>
                     </li>
                 </ul>
                 <div class="tab-content " id="pills-tabContent">
-                    <div class="tab-pane fade show active" id="pills-biography" role="tabpanel" aria-labelledby="pills-biography-tab">
+                    <div class="tab-pane fade show active" id="pills-biography" role="tabpanel"
+                        aria-labelledby="pills-biography-tab">
                         <div class="row mt-4">
                             <div class="col-12 col-lg-6">
                                 <p class="about_text ">
@@ -101,11 +109,13 @@
 
                             </div>
                             <div class="col-12 col-lg-6">
-                                <img src="/client_assets/images/picture/mekhla_about_1.png" width="100%" alt="Mekhla Dasgupta" />
+                                <img src="/client_assets/images/picture/mekhla_about_1.png" width="100%"
+                                    alt="Mekhla Dasgupta" />
                             </div>
                         </div>
                     </div>
-                    <div class="tab-pane fade" id="pills-recognition" role="tabpanel" aria-labelledby="pills-recognition-tab">
+                    <div class="tab-pane fade" id="pills-recognition" role="tabpanel"
+                        aria-labelledby="pills-recognition-tab">
                         <div class="min-height-80">
                             <div class="row">
                                 <div class="col-12 col-lg-6 col-md-6">
@@ -173,7 +183,8 @@
                                 </div>
                                 <div class="col-12 col-lg-6 col-md-6">
                                     <!-- Right -->
-                                    <img src="/client_assets/images/picture/Picture12.jpg" width="80%" alt="" srcset="" />
+                                    <img src="/client_assets/images/picture/Picture12.jpg" width="80%" alt=""
+                                        srcset="" />
                                 </div>
                             </div>
                         </div>
@@ -210,7 +221,9 @@
 
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script src="/client_assets/js/main.js"></script>
     <script src="/client_assets/js/sticky-menu.js"></script>

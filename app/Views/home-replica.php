@@ -33,42 +33,29 @@
             <div class="swiper mySwiper">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <img class="slider-image" src="/client_assets/images/slider/welcome thum.jpg" alt="" />
-                        <!-- <img src="/client_assets/images/slider/welcome thum rezized.jpg" alt="" /> -->
+                        <img src="/client_assets/images/slider/welcome thum rezized.jpg" alt="" />
                     </div>
-
-                </div>
-                <div class="swiper-pagination"></div>
-                <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div>
-                <div class="autoplay-progress">
-                    <svg viewBox="0 0 48 48">
-                        <circle cx="24" cy="24" r="20"></circle>
-                    </svg>
-                    <span></span>
-                </div>
+                    <!-- <div class="swiper-slide">
+            <img src="/client_assets/images/slider/img_3.jpg" alt="" />
+            <div class="text-content">
+              <p class="big-text">Welcome To</p>
+              <p class="small-text">World Of Mekhla</p>
             </div>
-            <div class="swiper musicSwiper">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <div class="music_slide">
-                            <div class="slide_wrapper">
-                                <div class="left_container">
-                                    <img src="/client_assets/images/picture/Capture.JPG" alt="Capture.JPG">
-                                </div>
-                                <div class="right_container">
-                                    <p class="title">Bibagi Mon ..</p>
-                                    <a href="http://" target="_blank" rel="noopener noreferrer"
-                                        class="listen-text">Listen /Watch</a>
-
-                                    <a href="/music" class="view-all" target="_blank" rel="noopener noreferrer">View
-                                        All <i class="uil uil-angle-double-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
+          </div>
+          <div class="swiper-slide">
+            <img src="/client_assets/images/slider/img_4.jpg" alt="" />
+            <div class="text-content">
+              <p class="big-text">Welcome To</p>
+              <p class="small-text">World Of Mekhla</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="/client_assets/images/slider/img_5.jpg" alt="" />
+            <div class="text-content">
+              <p class="big-text">Welcome To</p>
+              <p class="small-text">World Of Mekhla</p>
+            </div>
+          </div> -->
                 </div>
                 <div class="swiper-pagination"></div>
                 <div class="swiper-button-next"></div>
@@ -82,7 +69,28 @@
             </div>
         </div>
 
-
+        <div class="back_ground_picture" style="background-image: url('/client_assets/images/background/img_1.jpg')">
+            <div class="noise">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-lg-4 mx-auto">
+                            <div class="music_card">
+                                <img class="music_card_pic" src="/client_assets/images/picture/mekhla_about.png"
+                                    alt="" />
+                                <p class="music_card_title mt-2">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                </p>
+                                <a href="/about" class="know_more_btn mt-2" target="_blank"
+                                    rel="noopener noreferrer">Listen Now</a>
+                                <a href="/about" class="know_more_btn mt-2" target="_blank"
+                                    rel="noopener noreferrer">Watch Now
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <!-- Musical works -->
         <div class="background_gradient">
